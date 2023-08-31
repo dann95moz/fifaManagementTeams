@@ -1,0 +1,19 @@
+.login-container {
+  display: flex;
+  gap: 2rem;
+  .login-fields {
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+.queriesContainer {
+  display: flex;
+  gap: 2rem;
+  padding-top: 2rem;
+  & form {
+    display: flex;
+    gap: 1rem;
+    align-items: baseline;
+  }
+}
